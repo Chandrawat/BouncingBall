@@ -1,7 +1,5 @@
 Description:
 
-Your objective for this assignment is to create an application that receives circle properties (radius, speed & color) from a user. These properties are then used to create a circle that is displayed in a list item where it continually animates from one side of the list item to the another. There is a video attached to this assignment to demonstrate what the final implementation should look like.
-
 Application Layout Requirements
 
 - When a user starts the app, they should be presented with an example of how the custom view works at the top of the screen. This "example" should just be your custom view, CircleAnimatoinView, with a height of 80dp and a width of match_parent. The circle size, circle color, and circle speed of your example view should all be set in XML using custom attributes. Below the example custom view should be text that says "Create Your Own". At the bottom of the screen should be an area for users to create properties for a new circle. This area will be referred to as the "Circle Creation Interface" or CCI for the remainder of this document. A ListView or RecyclerView should fill up all of the remaining space between the "Create Your Own" text and the Circle Creation Interface at the bottom of the screen.
